@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+.allign_center {
+	width: 800px;
+	margin: auto;
+}
+
+.logo1 {
+	width: 500px
+}
+
+.intro_text {
+
+}
+
+#bottom{
+  position:inherit;
+	background:#F4070B;
+	min-width: 100%;
+	margin: 0;
+	padding-left: 30px;
+	
+
+	
+}
