@@ -1,25 +1,27 @@
 @charset "utf-8";
 
-.allign_center {
-	width: 800px;
-	margin: auto;
-}
-
-.logo1 {
-	width: 500px
+#logo1 {
+	margin-left: 100px;
+	margin-right: auto;
+	width:700px;
+	align-content: center;
 }
 
 .intro_text {
 
 }
 
-#bottom{
-  position:inherit;
-	background:#F4070B;
-	min-width: 100%;
-	margin: 0;
-	padding-left: 30px;
-	
+#toppicks{
+  text-align: center;
+	padding-top: 50px
+}
 
-	
+.row {
+	padding-bottom: 30px
+}
+
+#bottom {
+	background:#0D0D0D;
+	padding: 40px;
+	color:#FFFFFF;
 }

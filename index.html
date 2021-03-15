@@ -22,41 +22,42 @@
 </head>
 	
 <body>
-<div class="allign_center">
-	<!-- TOP OF THE PAGE - Put the code here-->
+<!-- TOP OF THE PAGE - Put the code here-->
 	
-		<!-- Navigation goes here-->
-		<nav class="navbar navbar-light bg-light container">
+<!-- Navigation goes here-->
+		<nav class="navbar navbar-light container">
 			  <a class="navbar-brand" href="#">
-				<img src="images/logo_black.png" class="logo1" alt="logo">
+				<img src="images/logo_black.png" id="logo1" alt="logo">
 			  </a>
 			</nav>
-	
-		<!-- Introduction header goes here-->
-		<header class="introduction">
-			<h1>INTRODUCTION</h1>
-		</header>
+	<div class="allign_center">
 		
-		<!-- Introduction text goes here-->
-		<article>
-			<p id="intro_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud </p>
-		</article>
-	
-		<!-- Call to action goes here-->	
-		<nav>
-			<a class="btn btn-primary btn-lg btn-block" href="#" role="button">CHECK MENU</a>
-		</nav>
-	
-		<!-- Main Grid goes here-->
-		<h2>TOP PICKS</h2>
+<!-- Introduction header goes here-->
 		<main class="container"></main>
 			<div class="row">
-			  <div class="col"><img src="images/kebab.jpg" alt="kebab"></div>
-			  <div class="col"><img src="images/pilav.jpg" alt="pilav"></div>
-			  <div class="col"><img src="images/steak_frites.jpg" alt="steak frites"></div>
+			  <header class="col-12 col-centered introduction">
+				  <h1>INTRODUCTION</h1>
+			  </header>		
+				
+<!-- Introduction text goes here-->
+			  <article class="col-12 col-centered">
+				<p id="intro_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud </p>
+			  </article>	
+				
+<!-- Call to action goes here-->
+			  <nav class="col-12 col-centered">	
+				  <a class="btn btn-primary btn-lg btn-block" href="#" role="button">CHECK MENU</a>
+			  </nav>
+				
+<!-- Main Grid goes here-->
+			  <main class="col-12 col-centered"><h2 id="toppicks">TOP PICKS</h2></main>
+			  <main class="col-4"><img src="images/kebab.jpg" alt="kebab"></main>
+			  <main class="col-4"><img src="images/pilav.jpg" alt="pilav"></main>
+			  <main class="col-4"><img src="images/steak_frites.jpg" alt="steak frites"></main>
 		   </div>
+	</div>
 	
-		<!-- Footer goes here-->
+<!-- Footer goes here-->
 		<footer id="bottom">
 			<h6>© 2021 Copyright Snackbar the Carte</h6>
 		</footer>
@@ -64,6 +65,6 @@
     <!-- jQuery and Bootstrap Bundle (includes Popper) -->
 		<script src="js/jquery-3.6.0.slim.min.js"></script>
 <script src="js/bootstrap.bundle.min.js"></script>
-	</div>
+	
 </body>
 </html>
