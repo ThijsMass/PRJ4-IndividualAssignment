@@ -88,6 +88,20 @@
 	margin-right: auto;
 }
 
+.btn-back {
+	background-color: #F23030;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 200%;
+	font-weight: 700;
+	color:#F5F5F5;
+	text-align: center;
+	margin-top:20px;
+	margin-bottom: 30px;
+	width: 30%;
+}
+
     .btn:hover {
       color: #730A1D;
 }
@@ -106,6 +120,10 @@
 .menu {
 	width: 100%;
 
+}
+
+.jumbotron-fluid {
+	background-color: #F2B872
 }
 
 .toppicks {
