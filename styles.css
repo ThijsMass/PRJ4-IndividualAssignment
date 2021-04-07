@@ -9,7 +9,7 @@
 	background:#730A1D;
 }
 .navbar-nav {
-    float:none;
+    float:left;
     margin:0 auto;
     display: block;
     text-align: center;
@@ -50,6 +50,7 @@
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 	font-size: 600%;
 	font-weight: 700;
+	padding-top: 20px;
 }
 
 .sub-titles {
@@ -79,14 +80,18 @@
 	font-size: 200%;
 	font-weight: 700;
 	color:#F5F5F5;
+	text-align: center;
 	margin-top:20px;
 	margin-bottom: 30px;
-
+	width: 30%;
+	margin-left: 36%;
+	margin-right: auto;
 }
 
     .btn:hover {
       color: #730A1D;
 }
+
 .center {
   display: block;
   margin-left: auto;
@@ -94,12 +99,18 @@
   width: 50%;
 }
 
+.picks-padding {
+	margin-bottom: 10%;	
+}
+
 .menu {
 	width: 100%;
+
 }
-#toppicks{
-  text-align: center;
-	padding-top: 50px
+
+.toppicks {
+	background-color: #F0A851;
+	border-radius: 100px;
 }
 
 .bottom {
